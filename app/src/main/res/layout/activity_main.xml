@@ -18,7 +18,7 @@
         android:textSize="20dp"
         android:layout_editor_absoluteX = "0dp"
         android:layout_editor_absoluteY = "0dp"
-         />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -29,20 +29,20 @@
         android:text="Welcome to..."
         android:textSize="30dp"
         tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="42dp" />
+        tools:layout_editor_absoluteY="42dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="455dp"
         android:layout_height="wrap_content"
-        android:layout_editor_absoluteX="0dp"
-        android:layout_editor_absoluteY="0dp"
         android:text="Lost for your Find!"
-        android:textSize="45dp"
         android:textColor="#E3735E"
+        android:textSize="45dp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="101dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="99dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -51,7 +51,8 @@
         android:textSize="20dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="199dp" />
+        tools:layout_editor_absoluteY="199dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -59,11 +60,12 @@
         android:layout_height="97dp"
         android:layout_editor_absoluteX="0dp"
         android:layout_editor_absoluteY="0dp"
-        android:text="Outwear"
-        android:textSize="30dp"
+        android:text="Outerwear"
+        android:textSize="27dp"
         android:backgroundTint="#FF7722"
         tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="241dp" />
+        tools:layout_editor_absoluteY="241dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
@@ -75,7 +77,8 @@
         android:textSize="25dp"
         android:backgroundTint="#FF7722"
         tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="241dp" />
+        tools:layout_editor_absoluteY="241dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -87,7 +90,8 @@
         android:textSize="25dp"
         android:backgroundTint="#FF7722"
         tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="355dp" />
+        tools:layout_editor_absoluteY="355dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button4"
@@ -99,7 +103,8 @@
         android:textSize="25dp"
         android:backgroundTint="#FF7722"
         tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="355dp" />
+        tools:layout_editor_absoluteY="355dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -107,7 +112,18 @@
         android:layout_height="51dp"
         app:srcCompat="@android:drawable/ic_popup_reminder"
         tools:layout_editor_absoluteX="347dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Digital Lost and Found! If you lost something open this app to find it. Just click on one of the categories and look for your item."
+        android:translationY="530dp"
+        tools:ignore="MissingConstraints" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
